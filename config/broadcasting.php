@@ -38,7 +38,7 @@ return [
             'options' => [
                 // 'host' => env('PUSHER_HOST') ?: 'api-'.env('PUSHER_APP_CLUSTER', 'mt1').'.pusher.com',
                 // 'port' => env('PUSHER_PORT', 443),
-                'cluster' => env('LARAVEL_WEBSOCKETS_HOST'),
+                'host' => env('LARAVEL_WEBSOCKETS_HOST'),
                 'port' => env('LARAVEL_WEBSOCKETS_PORT'),
                 'cluster' => env('PUSHER_APP_CLUSTER'),
                 'scheme' => env('PUSHER_SCHEME', 'https'),
